@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#08090c">
+<meta name="description" content="Aranav Sharma — marketing, digital growth, social media strategy and SEO.">
+<title>Aranav Sharma — Marketing & Digital Growth</title>
+<style>
+:root{--bg:#08090c;--panel:#111319;--panel2:#151821;--text:#f5f5f2;--muted:#a2a5af;--line:rgba(255,255,255,.12);--gold:#e7b66a;--blue:#7da9ff;--max:1180px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}a{color:inherit;text-decoration:none}button,a{ -webkit-tap-highlight-color:transparent}img{display:block;max-width:100%}.wrap{width:min(var(--max),calc(100% - 44px));margin:auto}.eyebrow{font:600 11px/1.4 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.18em;text-transform:uppercase;color:var(--gold)}.section{padding:105px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:38px}.section-head h2{font-size:clamp(32px,5vw,54px);letter-spacing:-.055em;line-height:1.04;margin:12px 0 0}.section-head p{max-width:390px;color:var(--muted);font-size:14px;margin:0}
+header{position:sticky;top:0;z-index:20;background:rgba(8,9,12,.84);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.08)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:800;letter-spacing:-.04em;font-size:17px}.brand span{color:var(--gold)}.navlinks{display:flex;gap:27px;align-items:center;font-size:12px;color:#c6c7ce}.navlinks a:hover{color:var(--gold)}.nav-cta{border:1px solid var(--line);border-radius:999px;padding:10px 16px;color:white!important}
+.hero{min-height:calc(100vh - 76px);display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:50px;padding:72px 0 82px;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;width:560px;height:560px;right:-180px;top:0;background:radial-gradient(circle,rgba(50,93,163,.22),transparent 68%);pointer-events:none}.hero-copy{position:relative;z-index:1}.availability{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);padding:8px 12px;border-radius:999px;color:#d4d5db;font-size:11px;margin-bottom:25px}.dot{width:7px;height:7px;border-radius:50%;background:#8fd5a5;box-shadow:0 0 12px #8fd5a566}.hero h1{font-size:clamp(48px,7.6vw,91px);letter-spacing:-.075em;line-height:.98;margin:0 0 23px;font-weight:800}.hero h1 em{font-style:normal;color:var(--gold)}.hero-copy>p{max-width:570px;color:#b8bac3;font-size:16px;line-height:1.85;margin:0 0 29px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;padding:13px 19px;border-radius:8px;font-size:13px;font-weight:700;border:1px solid var(--line);transition:.2s}.btn-primary{background:var(--text);color:#101115;border-color:var(--text)}.btn-primary:hover{background:var(--gold);border-color:var(--gold);transform:translateY(-2px)}.btn-ghost:hover{border-color:var(--gold);color:var(--gold)}.hero-note{margin-top:35px;color:#777b86;font:11px ui-monospace,monospace;letter-spacing:.04em}.hero-visual{position:relative;max-width:480px;justify-self:end;width:100%;padding:0 16px 22px 0}.portrait-frame{height:600px;max-height:72vh;min-height:430px;overflow:hidden;border-radius:15px;border:1px solid rgba(255,255,255,.15);background:#171a21;position:relative}.portrait-frame:after{content:"";position:absolute;inset:45% 0 0;background:linear-gradient(transparent,rgba(8,9,12,.52))}.portrait-frame img{width:100%;height:100%;object-fit:cover;object-position:center 23%}.portrait-tag{position:absolute;z-index:2;bottom:42px;left:-18px;background:rgba(15,17,23,.92);border:1px solid var(--line);border-radius:10px;padding:15px 18px;box-shadow:0 15px 45px #0005}.portrait-tag strong{display:block;font-size:13px}.portrait-tag small{color:var(--muted);font-size:11px}.image-index{position:absolute;right:0;top:20px;writing-mode:vertical-rl;color:#777b86;font:10px ui-monospace,monospace;letter-spacing:.16em}
+.metrics{border-top:1px solid var(--line);border-bottom:1px solid var(--line);display:grid;grid-template-columns:repeat(4,1fr)}.metric{padding:25px 22px;border-right:1px solid var(--line)}.metric:last-child{border-right:0}.metric strong{display:block;font-size:16px;letter-spacing:-.03em}.metric span{color:var(--muted);font-size:11px}
+.about-grid{display:grid;grid-template-columns:.75fr 1.25fr;gap:70px}.about-aside{position:relative}.about-aside img{width:100%;height:450px;object-fit:cover;object-position:center 20%;border-radius:12px;border:1px solid var(--line)}.about-aside .caption{font:10px ui-monospace,monospace;color:#858995;letter-spacing:.1em;margin-top:12px}.about-copy h3{font-size:clamp(26px,3.5vw,40px);line-height:1.2;letter-spacing:-.05em;margin:0 0 20px}.about-copy p{color:var(--muted);font-size:14px;line-height:1.95}.about-callout{border-left:2px solid var(--gold);padding:5px 0 5px 18px;color:#e6e7eb;margin:27px 0;font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.card{padding:26px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(140deg,rgba(255,255,255,.045),rgba(255,255,255,.012));transition:transform .25s,border-color .25s}.card:hover{transform:translateY(-4px);border-color:#e7b66a66}.card-top{display:flex;justify-content:space-between;gap:20px;align-items:start}.card-icon{display:grid;place-items:center;width:42px;height:42px;border-radius:10px;background:#e7b66a14;color:var(--gold);font-size:19px}.card-num{font:11px ui-monospace,monospace;color:#737782}.card h3{font-size:19px;letter-spacing:-.03em;margin:21px 0 6px}.card .role{color:var(--gold);font-size:12px;margin-bottom:14px}.card p{font-size:13px;color:var(--muted);margin:0}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:19px}.tag{font-size:10px;color:#c4c6cf;border:1px solid var(--line);padding:5px 9px;border-radius:999px}
+.skills-layout{display:grid;grid-template-columns:1fr 1fr;gap:16px}.skill-panel{padding:28px;border:1px solid var(--line);border-radius:12px;background:var(--panel)}.skill-panel h3{font-size:16px;margin:0 0 20px}.skill-list{display:flex;flex-wrap:wrap;gap:9px}.skill{border:1px solid var(--line);border-radius:8px;padding:10px 12px;color:#d9dbe2;font-size:12px}.skill:before{content:"↗";color:var(--gold);margin-right:8px}
+.timeline{border-left:1px solid #3a3c44;margin-left:8px;padding-left:28px;display:grid;gap:28px}.timeline-item{position:relative}.timeline-item:before{content:"";position:absolute;left:-34px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 5px #e7b66a16}.timeline-item .time{font:10px ui-monospace,monospace;letter-spacing:.1em;color:var(--gold);text-transform:uppercase}.timeline-item h3{font-size:17px;margin:7px 0 3px}.timeline-item .place{color:#b5b7c0;font-size:12px}.timeline-item p{font-size:13px;color:var(--muted);max-width:700px;margin:10px 0 0}
+.education-grid{display:grid;grid-template-columns:1fr 1fr;gap:15px}.education-card{border:1px solid var(--line);border-radius:12px;padding:25px;display:flex;gap:18px;align-items:start}.education-card .icon{font-size:24px;color:var(--gold)}.education-card h3{margin:0 0 6px;font-size:16px}.education-card p{margin:0;color:var(--muted);font-size:12px}
+.contact{background:linear-gradient(135deg,#121720,#0b0c10 65%);border:1px solid var(--line);border-radius:16px;padding:clamp(28px,6vw,65px);display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}.contact h2{font-size:clamp(36px,5vw,60px);line-height:1.02;letter-spacing:-.06em;margin:13px 0 17px}.contact p{color:var(--muted);font-size:14px;max-width:520px}.contact-actions{display:flex;flex-direction:column;align-items:stretch;gap:10px}.contact-actions a{justify-content:space-between}
+footer{padding:35px 0 28px}.footer-top{display:flex;justify-content:space-between;gap:20px;align-items:center;padding-bottom:25px;border-bottom:1px solid var(--line)}.footer-name{font-size:clamp(48px,12vw,150px);font-weight:900;letter-spacing:-.09em;line-height:1;color:#17191f;text-align:center;white-space:nowrap;overflow:hidden;margin:20px 0}.footer-bottom{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;color:#777b86;font-size:10px}.footer-bottom a{color:#c7c9d0}.reveal{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease}.reveal.visible{opacity:1;transform:none}
+@media(max-width:800px){.wrap{width:min(var(--max),calc(100% - 32px))}.navlinks{gap:14px}.navlinks a:not(.nav-cta){display:none}.hero{grid-template-columns:1fr;gap:38px;padding-top:55px;min-height:auto}.hero h1{font-size:clamp(54px,13vw,84px)}.hero-visual{justify-self:center;max-width:500px;padding-left:12px}.portrait-frame{height:570px;max-height:none}.metrics{grid-template-columns:1fr 1fr}.metric:nth-child(2){border-right:0}.metric:nth-child(-n+2){border-bottom:1px solid var(--line)}.section{padding:76px 0}.section-head{align-items:start;flex-direction:column}.about-grid{grid-template-columns:1fr;gap:30px}.about-aside img{height:420px;object-position:center 18%}.contact{grid-template-columns:1fr}.contact-actions{max-width:400px}.image-index{right:0}}
+@media(max-width:540px){.nav{height:66px}.brand{font-size:15px}.nav-cta{padding:9px 12px;font-size:11px}.hero{padding-top:42px}.hero-copy>p{font-size:14px}.portrait-frame{height:470px;min-height:0}.portrait-tag{left:-5px;bottom:28px}.cards,.skills-layout,.education-grid{grid-template-columns:1fr}.card{padding:22px}.metric{padding:19px 14px}.metric strong{font-size:14px}.metric span{font-size:10px}.section{padding:65px 0}.about-aside img{height:360px}.footer-top{align-items:start;flex-direction:column}.footer-name{font-size:18vw}.footer-bottom{flex-direction:column}.hero-note{font-size:9px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">ARANAV<span>.</span></a>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="#about">About</a><a href="#work">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a>
+    <a class="nav-cta" href="#contact">Let's connect ↗</a>
+  </nav>
+</div></header>
+<main>
+<section class="wrap hero" id="home">
+  <div class="hero-copy">
+    <div class="availability"><span class="dot"></span> MARKETING · DIGITAL GROWTH · BRAND BUILDING</div>
+    <div class="eyebrow">Portfolio / 2026</div>
+    <h1>Ideas into<br><em>impact.</em></h1>
+    <p>I'm Aranav Sharma — a marketing-focused professional interested in helping brands grow through thoughtful content, social media strategy, SEO research and consistent execution.</p>
+    <div class="hero-actions"><a class="btn btn-primary" href="#work">Explore my work <span>↘</span></a><a class="btn btn-ghost" href="#contact">Get in touch <span>↗</span></a></div>
+    <div class="hero-note">CURRENTLY · MARKETING HEAD AT ELITEFINISH</div>
+  </div>
+  <div class="hero-visual">
+    <div class="portrait-frame"><img src="assets/aranav-office.png" alt="Aranav Sharma in a professional office portrait"></div>
+    <div class="portrait-tag"><strong>Aranav Sharma</strong><small>Marketing & Digital Growth</small></div>
+    <div class="image-index">PROFILE — 001 / INDIA</div>
+  </div>
+</section>
+<div class="wrap metrics">
+  <div class="metric"><strong>Brand Strategy</strong><span>Positioning & promotion</span></div>
+  <div class="metric"><strong>Social Media</strong><span>Content & engagement</span></div>
+  <div class="metric"><strong>SEO Research</strong><span>Keywords & optimization</span></div>
+  <div class="metric"><strong>Campaign Support</strong><span>Planning & reporting</span></div>
+</div>
+<section class="section" id="about"><div class="wrap about-grid reveal">
+  <div class="about-aside"><img src="assets/aranav-portrait-close.png" alt="Professional portrait of Aranav Sharma"><div class="caption">01 / A LITTLE ABOUT ME</div></div>
+  <div class="about-copy"><div class="eyebrow">About me</div><h3>Curious by nature.<br>Strategic by practice.</h3>
+    <p>I bring together creative thinking, digital tools and organized execution to help businesses strengthen their online presence. My experience spans social media planning, brand communication, content coordination, SEO and marketing reporting.</p>
+    <p>As Marketing Head at EliteFinish, I work on brand awareness, campaign ideas and practical digital growth activities. At RICOZ, I have supported digital promotion and content planning while continuing to build hands-on marketing experience.</p>
+    <div class="about-callout">My approach: understand the audience, communicate with clarity, execute consistently and keep learning.</div>
+    <div class="tags"><span class="tag">Creative thinking</span><span class="tag">Continuous learning</span><span class="tag">Team coordination</span></div>
+  </div>
+</div></section>
+<section class="section" id="work" style="background:#0b0c10;border-block:1px solid rgba(255,255,255,.06)"><div class="wrap">
+  <div class="section-head reveal"><div><div class="eyebrow">Experience</div><h2>Where I contribute.</h2></div><p>Roles and practical training that are shaping my approach to digital marketing and brand growth.</p></div>
+  <div class="cards">
+    <article class="card reveal"><div class="card-top"><div class="card-icon">↗</div><span class="card-num">01 / CURRENT</span></div><h3>Marketing Head</h3><div class="role">EliteFinish · Painting Services</div><p>Plan social media activities and content calendars, research keywords, review website metadata, coordinate creative campaigns and prepare practical marketing updates.</p><div class="tags"><span class="tag">Social media</span><span class="tag">SEO</span><span class="tag">Campaign planning</span><span class="tag">Coordination</span></div></article>
+    <article class="card reveal"><div class="card-top"><div class="card-icon">◎</div><span class="card-num">02 / EXPERIENCE</span></div><h3>Digital Marketing Intern</h3><div class="role">RICOZ · FIRSTRICOZ PRIVATE LIMITED</div><p>Support digital promotion, social media marketing, content planning, creative campaign development and organized progress updates.</p><div class="tags"><span class="tag">Content planning</span><span class="tag">Brand communication</span><span class="tag">Digital promotion</span></div></article>
+    <article class="card reveal"><div class="card-top"><div class="card-icon">⌘</div><span class="card-num">03 / TRAINING</span></div><h3>Digital Marketing Internship</h3><div class="role">IT Hub Solution · Kankarbagh, Patna</div><p>Completed practical training covering SEO and keyword research, website optimization, social media marketing, online advertising, audience research, analytics and reporting.</p><div class="tags"><span class="tag">120 hours</span><span class="tag">SEO research</span><span class="tag">Analytics</span><span class="tag">Reporting</span></div></article>
+    <article class="card reveal"><div class="card-top"><div class="card-icon">✳</div><span class="card-num">04 / WORKING STYLE</span></div><h3>Ideas to execution</h3><div class="role">Planning · Creating · Improving</div><p>I value clear communication, structured task management and learning from performance insights to make marketing work more consistent and useful.</p><div class="tags"><span class="tag">Organization</span><span class="tag">Research</span><span class="tag">Learning mindset</span></div></article>
+  </div>
+</div></section>
+<section class="section" id="skills"><div class="wrap">
+  <div class="section-head reveal"><div><div class="eyebrow">Capabilities</div><h2>Tools for growth.</h2></div><p>A practical mix of marketing knowledge, digital tools and everyday computer skills.</p></div>
+  <div class="skills-layout">
+    <div class="skill-panel reveal"><h3>Digital marketing</h3><div class="skill-list"><span class="skill">Social media marketing</span><span class="skill">Content strategy & calendars</span><span class="skill">SEO & keyword research</span><span class="skill">Brand promotion</span><span class="skill">Campaign planning</span><span class="skill">Website optimization basics</span><span class="skill">Audience research</span><span class="skill">Analytics & reporting</span><span class="skill">Team coordination</span></div></div>
+    <div class="skill-panel reveal"><h3>Computer knowledge</h3><div class="skill-list"><span class="skill">Basic computer operations</span><span class="skill">MS Word</span><span class="skill">Basic Excel</span><span class="skill">Typing & data entry</span><span class="skill">Internet research</span><span class="skill">Email handling</span><span class="skill">File & document management</span><span class="skill">Online collaboration</span></div></div>
+  </div>
+</div></section>
+<section class="section" id="journey" style="background:#0b0c10;border-block:1px solid rgba(255,255,255,.06)"><div class="wrap">
+  <div class="section-head reveal"><div><div class="eyebrow">Journey</div><h2>Learning in motion.</h2></div><p>Building a foundation through education, practical experience and continuous skill development.</p></div>
+  <div class="timeline reveal">
+    <div class="timeline-item"><div class="time">Current role</div><h3>Marketing Head · EliteFinish</h3><div class="place">Brand awareness, social media and digital marketing coordination</div><p>Supporting campaign planning, content calendars, keyword research and structured marketing updates.</p></div>
+    <div class="timeline-item"><div class="time">Internship experience</div><h3>Digital Marketing Intern · RICOZ</h3><div class="place">FIRSTRICOZ PRIVATE LIMITED</div><p>Contributing to digital promotion, content planning and online brand communication.</p></div>
+    <div class="timeline-item"><div class="time">1–24 September 2026 · 120 hours</div><h3>Digital Marketing Training · IT Hub Solution</h3><div class="place">Kankarbagh, Patna</div><p>Practical exposure to SEO, social media marketing, online advertising, website optimization and analytics/reporting.</p></div>
+  </div>
+</div></section>
+<section class="section" id="education"><div class="wrap">
+  <div class="section-head reveal"><div><div class="eyebrow">Education</div><h2>Grounded in learning.</h2></div></div>
+  <div class="education-grid">
+    <div class="education-card reveal"><div class="icon">⌁</div><div><h3>Bachelor of Science — Physics</h3><p>Currently pursuing · Daudnagar College, Daudnagar<br>Magadh University</p></div></div>
+    <div class="education-card reveal"><div class="icon">✦</div><div><h3>Digital Marketing Internship</h3><p>IT Hub Solution, Kankarbagh, Patna<br>Practical training · 120 hours</p></div></div>
+  </div>
+</div></section>
+<section class="section" id="contact"><div class="wrap"><div class="contact reveal">
+  <div><div class="eyebrow">Next chapter</div><h2>Let's build<br>something meaningful.</h2><p>I'm interested in connecting with people and teams working across digital marketing, social media, brand building and growth opportunities.</p><p style="font-size:12px;margin-top:14px">Based in Daudnagar, Aurangabad, Bihar, India</p></div>
+  <div class="contact-actions"><a class="btn btn-primary" href="mailto:aranavsharma64@gmail.com?subject=Professional%20Opportunity%20-%20Aranav%20Sharma">aranavsharma64@gmail.com <span>↗</span></a><a class="btn btn-ghost" href="https://www.linkedin.com/in/aranav-sharma-161880443" target="_blank" rel="noreferrer">Connect on LinkedIn <span>↗</span></a><button class="btn btn-ghost" id="copyName" type="button">Copy my name <span>⧉</span></button><small id="copyStatus" aria-live="polite" style="color:#a2a5af;font-size:11px"></small></div>
+</div></div></section>
+</main>
+<footer><div class="wrap">
+  <div class="footer-top"><a class="brand" href="#home">ARANAV<span>.</span></a><span class="eyebrow">Ideas into impact — one step at a time.</span></div>
+  <div class="footer-name">ARANAV</div>
+  <div class="footer-bottom"><span>© <span id="year">2026</span> Aranav Sharma. Personal portfolio.</span><span>Marketing · Digital Growth · SEO</span><a href="#home">Back to top ↑</a></div>
+</div></footer>
+<script>
+const observer = new IntersectionObserver(entries => entries.forEach(entry => { if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>observer.observe(el));
+document.getElementById('year').textContent = new Date().getFullYear();
+document.getElementById('copyName').addEventListener('click',async()=>{try{await navigator.clipboard.writeText('Aranav Sharma');document.getElementById('copyStatus').textContent='Name copied.'}catch(e){document.getElementById('copyStatus').textContent='Aranav Sharma'}});
+</script>
+</body>
+</html>
